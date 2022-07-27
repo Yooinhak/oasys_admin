@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, StoreInfo, Menu } from '../components/home';
+import { Header, StoreInfo, Menu, Sidebar } from '../components/home';
 import '../scss/home.scss';
 
 const Home = () => {
@@ -8,6 +8,7 @@ const Home = () => {
       <Header />
       <StoreInfo />
       <Menu />
+      <Sidebar />
     </div>
   );
 };
