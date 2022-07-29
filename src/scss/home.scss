@@ -55,12 +55,12 @@
   }
 
   .layout-menu {
-    @include box-display(flex, 96%, auto);
-    padding: 2%;
+    @include box-display(flex, 100%, auto);
     flex-direction: column;
 
     .section-categori {
-      @include box-display(block, 100%, 15%, center, center);
+      @include box-display(block, 96%, 15%, center, center);
+      padding: 2%;
 
       .categori-btn {
         @include box-display(flex, 3rem, 3rem, center, center);
@@ -78,6 +78,40 @@
         border: none;
         color: black;
         margin: 6px 10px;
+      }
+    }
+
+    .section-menu-info .categori {
+      @include box-display(flex, 100%);
+      flex-direction: column;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      &:first-child {
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+      }
+
+      .item {
+        @include box-display(flex, 96%, auto);
+        padding: 2%;
+        .item-img {
+          @include box-display(flex, 100px, 100px, center, center);
+          border: 1px solid black;
+
+          button {
+            width: 50px;
+            height: 50px;
+            background-color: white;
+            background-image: url(https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-camera-outline-1024.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+          }
+        }
+
+        .item-info-box {
+          margin-left: 2%;
+          h3 {
+            margin: 0;
+          }
+        }
       }
     }
   }
@@ -120,11 +154,10 @@
       height: 100%;
     }
     .content {
-      display: flex;
       flex-direction: column;
       position: relative;
-      width: 100%;
       padding-top: 50px;
+      @include box-display(flex, 100%);
 
       button {
         margin: 0;
