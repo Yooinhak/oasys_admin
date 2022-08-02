@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/oasys_admin/static/css/main.8b8b7ad0.css",
+    "main.js": "/oasys_admin/static/js/main.f9748742.js",
+    "static/js/787.54f06edc.chunk.js": "/oasys_admin/static/js/787.54f06edc.chunk.js",
+    "index.html": "/oasys_admin/index.html",
+    "main.8b8b7ad0.css.map": "/oasys_admin/static/css/main.8b8b7ad0.css.map",
+    "main.f9748742.js.map": "/oasys_admin/static/js/main.f9748742.js.map",
+    "787.54f06edc.chunk.js.map": "/oasys_admin/static/js/787.54f06edc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b8b7ad0.css",
+    "static/js/main.f9748742.js"
+  ]
+}
